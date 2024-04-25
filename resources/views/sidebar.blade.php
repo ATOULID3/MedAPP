@@ -50,17 +50,17 @@
                 </li>
                 <li>
                     <a href="/clients" class="dropdown-toggle no-arrow">
-                        <span class="micon dw dw-user"></span><span class="mtext">clients</span>
+                        <span class="micon dw dw-user"></span><span class="mtext">Clients</span>
                     </a>
                 </li>
                 <li>
                     <a href="/reservation" class="dropdown-toggle no-arrow">
-                        <span class="micon dw dw-user2"></span><span class="mtext">reservation</span>
+                        <span class="micon dw dw-user2"></span><span class="mtext">Reservation</span>
                     </a>
                 </li>
                 <li>
                     <a href="/tasks" class="dropdown-toggle no-arrow">
-                        <span class="micon dw dw-calendar2"></span><span class="mtext">tasks</span>
+                        <span class="micon dw dw-calendar2"></span><span class="mtext">Tasks</span>
                     </a>
                 </li>
                 {{--<li class="dropdown">
@@ -181,6 +181,11 @@
                 <li>
                     <a href="/invoices" class="dropdown-toggle no-arrow">
                         <span class="micon dw dw-invoice"></span><span class="mtext">Invoice</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/users" class="dropdown-toggle no-arrow">
+                        <span class="micon dw dw-user"></span><span class="mtext">Users</span>
                     </a>
                 </li>
                 <li>

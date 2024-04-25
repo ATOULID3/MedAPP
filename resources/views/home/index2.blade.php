@@ -306,7 +306,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			{{-- <div class="row">
 				<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
 					<div class="card-box pd-30 pt-10 height-100-p">
 						<h2 class="mb-30 h4">Browser Visit</h2>
@@ -347,7 +347,7 @@
 						<div id="browservisit" style="width:100%!important; height:380px"></div>
 					</div>
 				</div>
-			</div>
+			</div> --}}
 			<div class="row">
 				<div class="col-lg-7 col-md-12 col-sm-12 mb-30">
 					<div class="card-box pd-30 height-100-p">
@@ -363,7 +363,7 @@
 				</div>
 			</div>
 			<div class="footer-wrap pd-20 mb-20 card-box">
-				DeskApp - Bootstrap 4 Admin Template By <a href="https://github.com/dropways" target="_blank">Ankit Hingarajiya</a>
+				DeskApp - Created By <a href="https://github.com/dropways" target="_blank">BADR EDDINE ATOULID</a>
 			</div>
 		</div>
 	</div>

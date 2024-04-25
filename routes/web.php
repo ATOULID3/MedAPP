@@ -6,9 +6,10 @@ use App\Http\Controllers\TaskController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\Task2Controller;
+use App\Http\Controllers\UsersController;
 use App\Http\Controllers\ClientController;
-use App\Http\Controllers\ContactController;
 // use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\InvoicesController;
 use App\Http\Controllers\RegisterController;
@@ -53,6 +54,8 @@ Route::get('/faq.html', function () {
 Route::get('/index2.html', function () {
     return view('home.index2');
 });
+// ********************users******************************
+Route::get('/users',[UsersController::class,'users']);
 
 // ********************chart******************************
 Route::get('/highchart.html', function () {
