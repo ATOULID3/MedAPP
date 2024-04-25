@@ -69,8 +69,8 @@ https://templatemo.com/tm-570-chain-app-dev
               <li class="scroll-to-section"><a href="#about">About</a></li>
               <li class="scroll-to-section"><a href="#pricing">Pricing</a></li>
               <li class="scroll-to-section"><a href="#newsletter">Newsletter</a></li>
-              <li><div class="gradient-button"><a id="modal_trigger" href="/login"><i class="fa fa-sign-in-alt"></i> Sign In Now</a></div></li> 
-            </ul>        
+              <li><div class="gradient-button"><a id="modal_trigger" href="/login"><i class="fa fa-sign-in-alt"></i> Sign In Now</a></div></li>
+            </ul>
             <a class='menu-trigger'>
                 <span>Menu</span>
             </a>
@@ -81,7 +81,7 @@ https://templatemo.com/tm-570-chain-app-dev
     </div>
   </header>
   <!-- ***** Header Area End ***** -->
-  
+
   <div id="modal" class="popupContainer" style="display:none;">
     <div class="popupHeader">
         <span class="header_title">Login</span>
@@ -209,7 +209,7 @@ https://templatemo.com/tm-570-chain-app-dev
           <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <h4>Amazing <em>Services &amp; Features</em> for you</h4>
             <img src="assets/images/heading-line-dec.png" alt="">
-            <p>If you need the greatest collection of HTML templates for your business, please visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">TooCSS</a> Blog. If you need to have a contact form PHP script, go to <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more information.</p>
+            <p>If you need the greatest collection of HTML templates for your business, please visit <a rel="nofollow" href="#" target="_blank">TooCSS</a> Blog. If you need to have a contact form PHP script, go to <a href="#" target="_parent">our contact page</a> for more information.</p>
           </div>
         </div>
       </div>
@@ -267,35 +267,35 @@ https://templatemo.com/tm-570-chain-app-dev
           <div class="section-heading">
             <h4>About <em>What We Do</em> &amp; Who We Are</h4>
             <img src="assets/images/heading-line-dec.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+            <p>Team of developers is a group of skilled professionals who collaborate to design, build, and maintain software applications and systems. This team plays a critical role in the success of projects, from conception to delivery and ongoing support.</p>
           </div>
           <div class="row">
             <div class="col-lg-6">
               <div class="box-item">
                 <h4><a href="#">Maintance Problems</a></h4>
-                <p>Lorem Ipsum Text</p>
+                <p>organizations can ensure the reliability</p>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="box-item">
                 <h4><a href="#">24/7 Support &amp; Help</a></h4>
-                <p>Lorem Ipsum Text</p>
+                <p>Support,Help</p>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="box-item">
                 <h4><a href="#">Fixing Issues About</a></h4>
-                <p>Lorem Ipsum Text</p>
+                <p>Fixing issues in software and IT requires a systematic approach to identify</p>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="box-item">
                 <h4><a href="#">Co. Development</a></h4>
-                <p>Lorem Ipsum Text</p>
+                <p>This approach is commonly used in the technology and software industries</p>
               </div>
             </div>
             <div class="col-lg-12">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor idunte ut labore et dolore adipiscing  magna.</p>
+              <p>For more information you can Start 14-Day Free Trial</p>
               <div class="gradient-button">
                 <a href="#">Start 14-Day Free Trial</a>
               </div>
@@ -319,7 +319,7 @@ https://templatemo.com/tm-570-chain-app-dev
           <div class="section-heading">
             <h4>Check What <em>The Clients Say</em> About Our App Dev</h4>
             <img src="assets/images/heading-line-dec.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+            <p>To check what clients say about your app development services, you can gather feedback from a variety of sources. Here's a list of methods to collect client feedback and gain insights into their experiences and opinions.</p>
           </div>
         </div>
         <div class="col-lg-12">
@@ -434,7 +434,7 @@ https://templatemo.com/tm-570-chain-app-dev
                       </div>
                     </div>
                   </div>
-                </div> 
+                </div>
                 <div class="col-lg-5">
                   <ul class="nacc">
                     <li class="active">
@@ -444,8 +444,7 @@ https://templatemo.com/tm-570-chain-app-dev
                             <div class="col-lg-12">
                               <div class="client-content">
                                 <img src="assets/images/quote.png" alt="">
-                                <p>“Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
+                                <p>“appreciate clear and consistent communication throughout the development process. They value being kept informed about project progress and having opportunities to provide input and feedback”</p>
                               </div>
                               <div class="down-content">
                                 <img src="assets/images/client-image.jpg" alt="">
@@ -466,8 +465,7 @@ https://templatemo.com/tm-570-chain-app-dev
                             <div class="col-lg-12">
                               <div class="client-content">
                                 <img src="assets/images/quote.png" alt="">
-                                <p>“CTO, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
+                                <p>“CTO, Clients are pleased with the quality of the final product, noting the thoroughness and attention to detail in your work. They may praise the user-friendly design and smooth functionality of the app.”</p>
                               </div>
                               <div class="down-content">
                                 <img src="assets/images/client-image.jpg" alt="">
@@ -488,8 +486,7 @@ https://templatemo.com/tm-570-chain-app-dev
                             <div class="col-lg-12">
                               <div class="client-content">
                                 <img src="assets/images/quote.png" alt="">
-                                <p>“May, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
+                                <p>“May, Meeting project deadlines is important to clients. Positive feedback might include appreciation for your team's ability to deliver the app on time and as agreed upon.”</p>
                               </div>
                               <div class="down-content">
                                 <img src="assets/images/client-image.jpg" alt="">
@@ -510,8 +507,7 @@ https://templatemo.com/tm-570-chain-app-dev
                             <div class="col-lg-12">
                               <div class="client-content">
                                 <img src="assets/images/quote.png" alt="">
-                                <p>“Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
+                                <p>“Clients may commend your team's ability to come up with creative solutions to meet their needs. They might highlight how your app development services exceeded their expectations in terms of functionality and design.”</p>
                               </div>
                               <div class="down-content">
                                 <img src="assets/images/client-image.jpg" alt="">
@@ -532,8 +528,7 @@ https://templatemo.com/tm-570-chain-app-dev
                             <div class="col-lg-12">
                               <div class="client-content">
                                 <img src="assets/images/quote.png" alt="">
-                                <p>“Mark, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
+                                <p>“Mark, Clients value ongoing support after the app's launch, including updates, bug fixes, and assistance with any issues that arise. They may express gratitude for your responsiveness and commitment to ensuring the app's continued success.”</p>
                               </div>
                               <div class="down-content">
                                 <img src="assets/images/client-image.jpg" alt="">
@@ -548,7 +543,7 @@ https://templatemo.com/tm-570-chain-app-dev
                       </div>
                     </li>
                   </ul>
-                </div>          
+                </div>
               </div>
             </div>
           </div>
@@ -564,7 +559,7 @@ https://templatemo.com/tm-570-chain-app-dev
           <div class="section-heading">
             <h4>We Have The Best Pre-Order <em>Prices</em> You Can Get</h4>
             <img src="assets/images/heading-line-dec.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+            <p>By effectively marketing your best pre-order prices, you can generate interest and excitement for your products, boost sales, and build lasting relationships with your customers.</p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -629,7 +624,7 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>
       </div>
     </div>
-  </div> 
+  </div>
 
   <footer id="newsletter">
     <div class="container">
@@ -660,7 +655,7 @@ https://templatemo.com/tm-570-chain-app-dev
         <div class="col-lg-3">
           <div class="footer-widget">
             <h4>Contact Us</h4>
-            <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
+            <p>fes - RJ, 22795-008, marocco</p>
             <p><a href="#">010-020-0340</a></p>
             <p><a href="#">info@company.co</a></p>
           </div>
@@ -705,13 +700,13 @@ https://templatemo.com/tm-570-chain-app-dev
             {{-- <div class="logo"> --}}
               {{-- <img src="assets/images/white-logo.png" alt=""> --}}
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <p>A team of developers is a group of skilled professionals who collaborate to design, build, and maintain software applications and systems. This team plays a critical role in the success of projects, from conception to delivery and ongoing support. Here's a description of a typical team of developers.</p>
           </div>
         </div>
         <div class="col-lg-12">
           <div class="copyright-text">
-            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved. 
-          <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a></p>
+            <p>Copyright © 2024 MedAPP Dev Company. All Rights Reserved.
+          <br>Design: <a href="#" target="_blank" title="css templates">BADR EDDINE ATOULID</a></p>
           </div>
         </div>
       </div>
