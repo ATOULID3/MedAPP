@@ -54,6 +54,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/details_clients" class="dropdown-toggle no-arrow">
+                        <span class="micon dw dw-folder"></span><span class="mtext">detail de Clients</span>
+                    </a>
+                </li>
+                <li>
                     <a href="/reservation" class="dropdown-toggle no-arrow">
                         <span class="micon dw dw-user2"></span><span class="mtext">Reservation</span>
                     </a>

@@ -143,7 +143,7 @@
 	</div>
 	<script>
 		function showAlert() {
-			alert("are you sure want to delete reservation!");
+			alert("are you sure want to delete client!");
 		}
 	</script>
 	<!-- js -->

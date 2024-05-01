@@ -14,6 +14,7 @@ use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\InvoicesController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\ReservationController;
+use App\Http\Controllers\DetailsclientsController;
 
 
 
@@ -88,7 +89,10 @@ Route::get('/delete_client/{id}',[ClientController::class,'delete_client']);
 Route::get('/update_client/{id}',[ClientController::class,'update_client']);
 Route::post('update/traitment',[ClientController::class,'update_client_traitment']);
 Route::get('/show_client/{id}',[ClientController::class,'show']);
-
+// *****************details_clients*********************************
+Route::get('/details_clients',[DetailsclientsController::class,'details']);
+Route::get('/ajouter_details',[DetailsclientsController::class,'ajouter_details']);
+Route::post('ajouter/details',[DetailsclientsController::class,'ajouterr_details']);
 
 // *****************profiles*********************************
 Route::get('/profile',[TaskController::class,'list_tasks']);
