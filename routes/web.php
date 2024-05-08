@@ -11,6 +11,7 @@ use App\Http\Controllers\ClientController;
 // use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CalendarController;
+use App\Http\Controllers\ChatusersController;
 use App\Http\Controllers\InvoicesController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\ReservationController;
@@ -57,7 +58,10 @@ Route::get('/index2.html', function () {
 });
 // ********************users******************************
 Route::get('/users',[UsersController::class,'users']);
-
+// ********************chatusers******************************
+Route::get('/chatusers',[ChatusersController::class,'chatusers']);
+Route::post('ajouter/chatusers',[ChatusersController::class,'ajouter_chatusers_traitment']);
+Route::get('/delete_chatusers/{id}',[ChatusersController::class,'delete_chatusers']);
 // ********************chart******************************
 Route::get('/highchart.html', function () {
     return view('chart.highchart');

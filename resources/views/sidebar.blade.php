@@ -194,6 +194,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/chatusers" class="dropdown-toggle no-arrow">
+                        <span class="micon dw dw-chat2"></span><span class="mtext">Users Chat</span>
+                    </a>
+                </li>
+                <li>
                     <div class="dropdown-divider"></div>
                 </li>
                 <li>
