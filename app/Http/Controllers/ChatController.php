@@ -2,14 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\chat;
+use App\Models\User;
+use Illuminate\Http\Request;
 
 class ChatController extends Controller
 {
     public function list_chats(){
         $chats=chat::all();
-        return view('chat.chat',compact('chats'));
+        $users=User::all();
+        return view('chat.chat',compact('chats','users'));
     }
     public function show_chat(){
         return view('chat.chat');

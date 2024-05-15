@@ -71,7 +71,7 @@
 												<p><i class="fa fa-circle text-light-green"></i> online</p>
 											</a>
 										</li> --}}
-										<li>
+										{{-- <li>
 											<a href="#">
 												<img src="vendors/images/img.jpg" alt="">
 												<h3 class="clearfix">John Doe</h3>
@@ -100,14 +100,16 @@
 												<h3 class="clearfix">John Doe</h3>
 												<p><i class="fa fa-circle text-light-orange"></i> offline</p>
 											</a>
-										</li>
+										</li> --}}
+                                        @foreach ($users as $user)
 										<li>
 											<a href="#">
 												<img src="vendors/images/img.jpg" alt="">
-												<h3 class="clearfix">John Doe</h3>
-												<p><i class="fa fa-circle text-light-orange"></i> offline</p>
+												<h3 class="clearfix">{{ $user->name }}</h3>
+												<p><i class="fa fa-circle text-light-green"></i> online</p>
 											</a>
 										</li>
+                                        @endforeach
 									</ul>
 								</div>
 							</div>
@@ -257,6 +259,7 @@
 			</div> --}}
 		</div>
 	</div>
+    <br>
 	<!-- js -->
 	<script src="vendors/scripts/core.js"></script>
 	<script src="vendors/scripts/script.min.js"></script>
