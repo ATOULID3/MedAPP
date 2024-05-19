@@ -56,8 +56,6 @@
 					<div class="row no-gutters">
 						<div class="col-lg-3 col-md-4 col-sm-12">
 							<div class="chat-list bg-light-gray">
-								<form method="POST" action="ajouter/chat">
-									@csrf
 								<div class="chat-search">
 									<span class="ti-search"></span>
 									<input type="text" placeholder="Search Contact">
@@ -106,6 +104,15 @@
 											<a href="#">
 												<img src="vendors/images/img.jpg" alt="">
 												<h3 class="clearfix">{{ $user->name }}</h3>
+												<p><i class="fa fa-circle text-light-green"></i> online</p>
+											</a>
+										</li>
+                                        @endforeach
+                                        @foreach ($clients as $client)
+										<li>
+											<a href="#">
+												<img src="vendors/images/img.jpg" alt="">
+												<h3 class="clearfix">{{ $client->name }}</h3>
 												<p><i class="fa fa-circle text-light-green"></i> online</p>
 											</a>
 										</li>
@@ -238,6 +245,8 @@
 											@endforeach
 										</ul>
 									</div>
+                                    <form method="POST" action="ajouter/chat">
+                                        @csrf
 									<div class="chat-footer">
 										<div class="file-upload"><a href="#"><i class="fa fa-paperclip"></i></a></div>
 										<div class="chat_text_area">

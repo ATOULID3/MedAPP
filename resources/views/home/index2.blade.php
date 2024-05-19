@@ -363,7 +363,7 @@
 				</div>
 			</div>
 			<div class="footer-wrap pd-20 mb-20 card-box">
-				DeskApp - Created By <a href="https://github.com/dropways" target="_blank">BADR EDDINE ATOULID</a>
+				DeskApp - Created By <a href="#" target="_blank">BADR EDDINE ATOULID</a>
 			</div>
 		</div>
 	</div>
