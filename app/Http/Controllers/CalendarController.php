@@ -38,4 +38,9 @@ class CalendarController extends Controller
         $calendars= calendar::all();
         return view("calendar.show_calendar",compact('calendars'));
     }
+    public function delete_calendar($id){
+        $calendars = calendar :: find($id);
+        $calendars-> delete();
+        return redirect('/calendar')->with('status',' calendar suprimer avec succes.');
+    }
 }

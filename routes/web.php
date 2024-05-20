@@ -109,6 +109,7 @@ Route::get('/calendar',[CalendarController::class,'list_calendar']);
 Route::get('/ajouter_task',[CalendarController::class,'ajouter_calendar']);
 Route::post('calendar/traitment',[CalendarController::class,'ajouter_calendar_traitment']);
 Route::get('/show_calendar',[CalendarController::class,'show_calendar']);
+Route::get('/delete_calendar/{id}',[CalendarController::class,'delete_calendar']);
 
 // *****************login*********************************
 // Route::get('/login',[LoginController::class,'showlogin'])->name('login');

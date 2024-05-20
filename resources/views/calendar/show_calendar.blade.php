@@ -17,14 +17,15 @@
 							<h5 class="card-header weight-500">{{ $calendar->ename }}</h5>
 							<div class="card-body">
 								<h5 class="card-title">{{ $calendar->edesc }}</h5>
-								<a href="#" class="btn btn-primary">Go somewhere</a>
+								{{-- <a href="#" class="btn btn-primary">Go somewhere</a> --}}
 							</div>
 							<div class="card-footer text-muted">
 								{{ $calendar->edate }}
+                                <a onclick="showAlert()" href="/delete_calendar/{{$calendar->id}}" class="btn btn-danger btn-sm">X</a>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-12 col-md-4 mb-30">
+					{{-- <div class="col-sm-12 col-md-4 mb-30">
 						<div class="card card-box">
 							<div class="card-header">
 								{{ $calendar->ename }}
@@ -35,12 +36,17 @@
 								</blockquote>
 							</div>
 						</div>
-					</div>
-
+					</div> --}}
 				</div>
+                <hr>
 @endforeach
 @endif
 </div>
 </div>
 </div>
 </div>
+<script>
+    function showAlert() {
+        alert("are you sure want to delete calendar!");
+    }
+</script>
