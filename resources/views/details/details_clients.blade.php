@@ -53,8 +53,8 @@
     <div class="col-lg-3 col-md-6 col-sm-12 mb-30">
         <div class="da-card">
             <div class="da-card-photo">
-                <img src="vendors/images/photo1.jpg" alt="Model Image">
-                <div class="da-overlay da-slide-left">
+                <img src="{{ asset('details/' . $detail->phot) }}" alt="Model Image">
+                {{-- <div class="da-overlay da-slide-left">
                     <div class="da-social">
                         <ul class="clearfix">
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -62,16 +62,16 @@
                             <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
                         </ul>
                     </div>
-                </div>
+                </div> --}}
             </div>
             <div class="da-card-content">
                 <h5 class="h5 mb-10">{{$detail->client}}</h5>
                 <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-outline-primary">cin</button>
-                    <button type="button" class="btn btn-outline-primary">radio</button>
-                    <button type="button" class="btn btn-outline-primary">pdf</button>
-                    <button type="button" class="btn btn-outline-primary">photo</button>
-                    <button type="button" class="btn btn-outline-primary">file</button>
+                    <a href="{{ asset('details/' . $detail->cin) }}"><button type="button" class="btn btn-outline-primary">cin</button></a>
+                    <a href="{{ asset('details/' . $detail->radio) }}"><button type="button" class="btn btn-outline-primary">radio</button></a>
+                    <a href="{{ asset('details/' . $detail->pdf) }}"><button type="button" class="btn btn-outline-primary">pdf</button></a>
+                    {{-- <button type="button" class="btn btn-outline-primary">photo</button> --}}
+                    <a href="{{ asset('details/' . $detail->fil) }}"><button type="button" class="btn btn-outline-primary">file</button></a>
                   </div>
             </div>
         </div>
