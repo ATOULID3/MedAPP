@@ -20,6 +20,15 @@
                         <li><a href="index2.html">Dashboard style 2</a></li>
                     </ul>
                 </li>
+                <li class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle">
+                        <span class="micon dw dw-analytics-21"></span><span class="mtext">Charts</span>
+                    </a>
+                    <ul class="submenu">
+                        <li><a href="highchart.html">Highchart</a></li>
+                        <li><a href="apexcharts.html">Apexcharts</a></li>
+                    </ul>
+                </li>
                 {{--<li class="dropdown">
                     <a href="javascript:;" class="dropdown-toggle">
                         <span class="micon dw dw-edit2"></span><span class="mtext">Forms</span>
@@ -101,15 +110,6 @@
                         <li><a href="custom-icon.html">Custom Icons</a></li>
                     </ul>
                 </li>--}}
-                 <li class="dropdown">
-                    <a href="javascript:;" class="dropdown-toggle">
-                        <span class="micon dw dw-analytics-21"></span><span class="mtext">Charts</span>
-                    </a>
-                    <ul class="submenu">
-                        <li><a href="highchart.html">Highchart</a></li>
-                        <li><a href="apexcharts.html">Apexcharts</a></li>
-                    </ul>
-                </li>
                 {{--<li class="dropdown">
                     <a href="javascript:;" class="dropdown-toggle">
                         <span class="micon dw dw-right-arrow1"></span><span class="mtext">Additional Pages</span>

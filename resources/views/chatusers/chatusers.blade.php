@@ -46,7 +46,7 @@
                 </thead>
                 <tbody>
                     @foreach ($chatusers as $chatuser )
-                    <tr class="table-active">
+                    <tr>
                         <th scope="row">{{$chatuser->id}}</th>
                         <td>{{$chatuser->from}}</td>
                         <td>{{$chatuser->to}}</td>

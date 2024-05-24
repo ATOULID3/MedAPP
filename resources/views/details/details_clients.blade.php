@@ -66,7 +66,7 @@
             </div>
             <div class="da-card-content">
                 <h5 class="h5 mb-10">{{$detail->client}}</h5>
-                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
                     <a href="{{ asset('details/' . $detail->cin) }}"><button type="button" class="btn btn-outline-primary">cin</button></a>
                     <a href="{{ asset('details/' . $detail->radio) }}"><button type="button" class="btn btn-outline-primary">radio</button></a>
                     <a href="{{ asset('details/' . $detail->pdf) }}"><button type="button" class="btn btn-outline-primary">pdf</button></a>
