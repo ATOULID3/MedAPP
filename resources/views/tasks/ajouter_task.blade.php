@@ -48,10 +48,10 @@
                             <br>
                             <ul>
                                 @foreach ($errors->all() as $error)
-                                <li class="alert alert-danger"> {{$error}}</li> 
+                                <li class="alert alert-danger"> {{$error}}</li>
                                 @endforeach
                                 </ul>
-                            
+
     <div class="modal-body pd-0">
         <div class="task-list-form">
             <ul>
@@ -89,9 +89,9 @@
                                 <input type="text" class="form-control date-picker" id="date" name="date">
                             </div>
                         </div>
-                
+
                 </li>
-                
+
             </ul>
         </div>
         <div class="add-more-task">
@@ -99,7 +99,7 @@
         </div>
     </div>
     <div class="modal-footer">
-        <button class="btn btn-success" type="submit">ajouter</button>
+        <button class="btn btn-success" type="submit"id="sa-custom-position">ajouter</button>
         <a class="btn btn-sm btn-danger" href="{{url('/tasks')}}">Anuuler</a>
     </div>
 </form>
@@ -109,6 +109,9 @@
 <script src="vendors/scripts/process.js"></script>
 <script src="vendors/scripts/layout-settings.js"></script>
 <script src="src/plugins/cropperjs/dist/cropper.js"></script>
+	<!-- add sweet alert js & css in footer -->
+	<script src="src/plugins/sweetalert2/sweetalert2.all.js"></script>
+	<script src="src/plugins/sweetalert2/sweet-alert.init.js"></script>
 <script>
     window.addEventListener('DOMContentLoaded', function () {
         var image = document.getElementById('image');
