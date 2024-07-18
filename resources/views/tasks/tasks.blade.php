@@ -115,11 +115,11 @@
 									<td>{{$task->assigned}}</td>
                                     <td>{{$task->date}}</td>
                                     <td class="d-flex justify-content-around">
-                                        <a class="btn btn-sm btn-warning" href="#" onclick="return confirm('task want to do it')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                                        <a class="btn btn-sm btn-warning" href="#" id="sa-error"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
                                             <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
                                           </svg></a>
-                                        <a class="btn btn-sm btn-success" href="#" onclick="return confirm('task its done')" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                                        <a class="btn btn-sm btn-success" href="#" id="sa-success" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
                                             <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/>
                                           </svg></a>
                                         <a onclick="showAlert()" class="btn btn-sm btn-danger" href="/delete_task/{{$task->id}}"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
@@ -168,4 +168,7 @@
 	<script src="src/plugins/datatables/js/vfs_fonts.js"></script>
 	<!-- Datatable Setting js -->
 	<script src="vendors/scripts/datatable-setting.js"></script></body>
+    	<!-- add sweet alert js & css in footer -->
+	<script src="src/plugins/sweetalert2/sweetalert2.all.js"></script>
+	<script src="src/plugins/sweetalert2/sweet-alert.init.js"></script>
 </html>

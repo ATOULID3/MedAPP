@@ -16,9 +16,7 @@ use App\Http\Controllers\InvoicesController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\ReservationController;
 use App\Http\Controllers\DetailsclientsController;
-
-
-
+use App\Http\Controllers\PaimentsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -84,6 +82,9 @@ Route::get('/color-settings.html', function () {
 Route::get('/introduction.html', function () {
     return view('documentation.introduction');
 });
+Route::get('/tarif', function () {
+    return view('documentation.tarif');
+});
 
 // *****************clients*********************************
 Route::get('/clients',[ClientController::class,'list_clients']);
@@ -97,6 +98,13 @@ Route::get('/show_client/{id}',[ClientController::class,'show']);
 Route::get('/details_clients',[DetailsclientsController::class,'details']);
 Route::get('/ajouter_details',[DetailsclientsController::class,'ajouter_details']);
 Route::post('ajouter/details',[DetailsclientsController::class,'ajouterr_details']);
+
+// *****************paiments*********************************
+Route::get('/paiments',[PaimentsController::class,'paiments']);
+Route::get('/ajouter_paiments',[PaimentsController::class,'ajouter_paiments']);
+Route::post('ajouter/pai',[PaimentsController::class,'ajouterr_paiment']);
+Route::get('/details_paiments/{id}',[PaimentsController::class,'details_paiments']);
+Route::post('details/traitment',[PaimentsController::class,'details_traitment']);
 
 // *****************profiles*********************************
 Route::get('/profile',[TaskController::class,'list_tasks']);

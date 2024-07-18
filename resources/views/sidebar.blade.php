@@ -64,7 +64,12 @@
                 </li>
                 <li>
                     <a href="/details_clients" class="dropdown-toggle no-arrow">
-                        <span class="micon dw dw-folder"></span><span class="mtext">detail de Clients</span>
+                        <span class="micon dw dw-folder"></span><span class="mtext">Detail de Clients</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/paiments" class="dropdown-toggle no-arrow">
+                        <span class="micon dw dw-money"></span><span class="mtext">Paiments</span>
                     </a>
                 </li>
                 <li>
@@ -212,6 +217,12 @@
                         <li><a href="introduction.html">Introduction</a></li>
                         <li><a href="color-settings.html">Color Settings</a></li>
                     </ul>
+                </li>
+                <li>
+                    <a href="/tarif"class="dropdown-toggle no-arrow">
+                        <span class="micon dw dw-money"></span>
+                        <span class="mtext">tarif</span>
+                    </a>
                 </li>
                 <li>
                     <a href="/contactUs" target="_blank" class="dropdown-toggle no-arrow">
